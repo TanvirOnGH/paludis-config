@@ -1,0 +1,6 @@
+-c -> "complete" - it updates not just "world"'s contents but their dependencies also.
+you can check the options descriptions with "cave show <pkg>" add -c for complete
+cave fix-linkage -> Revdep-rebuild Equivalent
+--continue-on-failure -> Build Resume / Skip First Support
+cave resolve <pkg> --show-option-descriptions all -> shows all the option descriptions
+cave show <pkg> -> shows option descriptions
